@@ -50,7 +50,7 @@ describe("getAPIKey", () => {
 
   test("Valid authorization header returns first ApiKey listed", () => {
     const res = getAPIKey({authorization: "ApiKey 123 456"});
-    expect(res).toBe("12");
+    expect(res).toBe("123");
   });
 
 });
