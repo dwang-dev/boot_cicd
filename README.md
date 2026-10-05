@@ -1,5 +1,4 @@
 ![Test status badge.](https://github.com/dwang-dev/boot_cicd/actions/workflows/ci.yml/badge.svg)
-/badge.svg
 
 # learn-cicd-typescript-starter (Notely)
 
