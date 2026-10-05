@@ -20,8 +20,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check formatting issues.
-        run: npm run format:check
-
       - name: Run tests
         run: npm run test
+    name: style
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prettier format checking.
+      - run: npm run format:check
+      
